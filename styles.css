@@ -43,11 +43,6 @@ main {
     gap: 20px;
 }
 
-.video-container, .map-container {
-    grid-column: span 2;
-    text-align: left;
-}
-
 .contact-info {
     padding: 20px;
     background: #f9f9f9;
@@ -67,14 +62,4 @@ main {
 .social-icons img {
     width: 32px;
     height: 32px;
-}
-
-@media (max-width: 768px) {
-    main {
-        grid-template-columns: 1fr;
-    }
-
-    .video-container iframe, .map-container iframe {
-        width: 100%;
-    }
 }
